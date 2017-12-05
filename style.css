@@ -1,0 +1,54 @@
+.row{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6em;
+  letter-spacing: 2em;
+  
+  width: 100vw;
+  height: 20vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sky {
+  background: #FFCFE7;
+  color: #FFFFFF;
+}
+
+.ground {
+  color: #FFFFFF;
+  background: #000000;
+}
+
+
+.box{
+	height:80%;
+	width:80%;
+}  
+
+.line{
+	 background: #ffffff;
+	 width: 200vw;
+	 height: 1vh;
+	
+}
+
+.pink{
+	background: #FFCFE7;
+}
+
+.black{
+	background:#000000; 
+}
+
+.rowone{
+	
+  width: 200vw;
+  height: 20vh;
+}
+
+.rowtwo{
+  width: 200vw;
+  height: 20vh;
+}
