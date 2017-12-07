@@ -5,6 +5,7 @@
   
   width: 100vw;
   height: 20vh;
+   margin: 3px;
   
   display: flex;
   align-items: center;
@@ -12,27 +13,20 @@
 }
 
 .sky {
-  background: #FFCFE7;
+  background: #000000;
   color: #FFFFFF;
 }
-
+ 
 .ground {
   color: #FFFFFF;
-  background: #000000;
+  background:  #FFCFE7;
 }
 
 
 .box{
-	height:80%;
-	width:80%;
+	height:70vh;
+	width:50vw;
 }  
-
-.line{
-	 background: #ffffff;
-	 width: 200vw;
-	 height: 1vh;
-	
-}
 
 .pink{
 	background: #FFCFE7;
@@ -43,12 +37,21 @@
 }
 
 .rowone{
-	
-  width: 200vw;
-  height: 20vh;
+	display:flex;
+	flex-wrap:wrap;
+  width: 100vw;
+  height: 40vh;
+   margin: 3px;
 }
 
-.rowtwo{
-  width: 200vw;
-  height: 20vh;
+@media screen and (max-width: 899px) {
+	
+	body{
+		display:block;
+	}
+	
+	.box {
+		height: 50vh;
+		width: 100vw;
+	}
 }
