@@ -44,6 +44,15 @@
    margin: 3px;
 }
 
+.rowzero{
+	display:flex;
+	flex-wrap:wrap;
+  width: 100vw;
+  height: 7vh;
+   margin: 3px;
+}
+
+
 @media screen and (max-width: 899px) {
 	
 	body{
@@ -55,3 +64,4 @@
 		width: 100vw;
 	}
 }
+
